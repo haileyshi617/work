@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
+@import 'variables';
+@import 'nav';
+@import 'about';
+
 body {
   /* background-color: red; */
   font-family: 'Poppins', sans-serif;
@@ -13,7 +17,7 @@ body {
   width: 100vw;
   height: 100vh;
   position: fixed;
-  background: white;
+  background: $c-white;
   z-index: 999;
   display: flex;
   justify-content: center;
@@ -24,8 +28,8 @@ body {
   animation: rotate 0.56s infinite linear;
   width: 50px;
   height: 50px;
-  border: 12px solid rgb(255, 44, 90);
-  border-bottom: 12px solid #fff;
+  border: 12px solid $c-primary-main;
+  border-bottom: 12px solid $c-white;
   border-radius: 50%;
   margin: 0;
 }
@@ -38,102 +42,6 @@ body {
   }
 }
 
-/* Nav */
-/* -------------------------------- */
-#header {
-  width: 92vw;
-  padding: 6vh 4vw;
-  position: fixed;
-  font-weight: bold;
-  background: white;
-  color: #333;
-  transition: 0.4s ease-in-out;
-  z-index: 2;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-#logo {
-  width: 20%;
-  text-decoration: none;
-}
-#navigation {
-  width: 80%;
-}
-
-#img_here {
-  width: 90%;
-  height: 90%;
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
-  margin: 0px auto;
-}
-#logo {
-  font-size: 24px;
-  color: rgb(255, 44, 90);
-}
-#navigation {
-  text-align: right;
-}
-#navigation a {
-  color: inherit;
-  text-decoration: none;
-  padding: 5px 10px;
-  border-bottom: 2px solid transparent;
-  margin-left: 4vw;
-  transition: 0.4s ease-in-out;
-}
-#navigation a:hover {
-  border-bottom: 2px solid rgb(255, 44, 90);
-}
-
-/* About */
-/* -------------------------------- */
-#top_part {
-  width: 100%;
-  border: 2vh solid #fff;
-}
-
-#about {
-  width: 84% !important;
-  height: 95vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: left;
-  padding: 0px 8%;
-}
-#about p {
-  font-size: 30px;
-  line-height: 48px;
-  word-wrap: break-word;
-}
-#about .socials-container {
-  width: 100%;
-  margin-top: 4vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.social {
-  color: rgb(255, 44, 90);
-  font-size: 23px;
-  padding: 12px 17px;
-  border-radius: 50%;
-  background: transparent;
-  transition: 0.4s ease-in-out;
-  font-weight: bold;
-  margin: 0px 8px;
-}
-.social:hover {
-  cursor: pointer;
-  color: #fff;
-  background: rgb(255, 44, 90);
-  box-shadow: 0px 10px 30px rgba(255, 66, 107, 0.8);
-}
-
 /* Work */
 /* -------------------------------- */
 #work {
@@ -143,7 +51,7 @@ body {
 }
 #work h1 {
   padding: 5px 0px;
-  border-bottom: 4px solid rgb(255, 44, 90);
+  border-bottom: 4px solid $c-primary-main;
   width: 6%;
 }
 #photos {
@@ -173,7 +81,7 @@ body {
 }
 #bio h1 {
   padding: 5px 0px;
-  border-bottom: 4px solid rgb(255, 44, 90);
+  border-bottom: 4px solid $c-primary-main;
   width: 8%;
 }
 
@@ -185,7 +93,7 @@ body {
 }
 #contact h1 {
   padding: 5px 0px;
-  border-bottom: 4px solid rgb(255, 44, 90);
+  border-bottom: 4px solid $c-primary-main;
   width: 10%;
 }
 
@@ -198,7 +106,7 @@ body {
   font-weight: bold;
 }
 #footer a {
-  color: rgb(255, 44, 90);
+  color: $c-primary-main;
   text-decoration: none;
 }
 ::placeholder {
@@ -266,8 +174,8 @@ button:focus {
     width: 60%;
     margin: 4vh auto;
     box-shadow: 0px 10px 20px rgba(255, 44, 90, 0.8);
-    background: rgb(255, 44, 90);
-    color: #fff;
+    background: $c-primary-main;
+    color: $c-white;
   }
   .btn_one:hover {
     box-shadow: 0px 10px 40px rgba(255, 44, 90, 0.8);
@@ -291,7 +199,7 @@ button:focus {
   /* -------------------------------- */
   #header {
     width: 96vw;
-    background: #fff;
+    background: $c-white;
     padding: 4vh 2vw;
     position: absolute;
     flex-direction: column;
@@ -304,7 +212,7 @@ button:focus {
   }
   #navigation {
     width: 100%;
-    color: #333;
+    color: $c-black;
     display: flex;
     flex-direction: row;
     align-items: center;

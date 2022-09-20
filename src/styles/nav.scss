@@ -1,0 +1,39 @@
+/* Nav */
+/* -------------------------------- */
+#header {
+  width: 92vw;
+  padding: 6vh 4vw;
+  position: fixed;
+  font-weight: bold;
+  background: $c-white;
+  color: $c-black;
+  transition: 0.4s ease-in-out;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo {
+  width: 20%;
+  text-decoration: none;
+  font-size: 24px;
+  color: $c-primary-main;
+}
+
+#navigation {
+  width: 80%;
+  text-align: right;
+}
+
+#navigation a {
+  color: inherit;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-bottom: 2px solid transparent;
+  margin-left: 4vw;
+  transition: 0.4s ease-in-out;
+}
+#navigation a:hover {
+  border-bottom: 2px solid $c-primary-main;
+}

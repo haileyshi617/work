@@ -1,0 +1,45 @@
+/* About */
+/* -------------------------------- */
+#top_part {
+  width: 100%;
+  border: 2vh solid $c-white;
+}
+
+#about {
+  width: 84% !important;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 0px 8%;
+}
+#about p {
+  font-size: 30px;
+  line-height: 48px;
+  word-wrap: break-word;
+}
+#about .socials-container {
+  width: 100%;
+  margin-top: 4vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social {
+  color: $c-primary-main;
+  font-size: 23px;
+  padding: 12px 17px;
+  border-radius: 50%;
+  background: transparent;
+  transition: 0.4s ease-in-out;
+  font-weight: bold;
+  margin: 0px 8px;
+}
+.social:hover {
+  cursor: pointer;
+  color: $c-white;
+  background: $c-primary-main;
+  box-shadow: $shadow-primary;
+}
