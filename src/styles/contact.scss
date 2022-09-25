@@ -2,10 +2,15 @@
 /* -------------------------------- */
 #contact {
   width: 100vw;
-  height: 72vh;
+  height: 90vh;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  p {
+    font-size: 24px;
+    font-weight: 200;
+  }
 }

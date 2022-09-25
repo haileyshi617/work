@@ -10,16 +10,39 @@
   columns: 3;
   column-gap: 4%;
   z-index: 1;
-  transition: 0.4s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.project_item {
+  position: relative;
+
+  .project_title {
+    z-index: 2;
+    color: $c-white;
+    pointer-events: none;
+    font-size: 24px;
+    line-height: 36px;
+    position: absolute;
+    width: 50%;
+    font-weight: 600;
+    bottom: 24px;
+    left: 12px;
+
+    @media (max-width: 600px) {
+      font-size: 24px;
+    }
+  }
 
   img {
     width: 100%;
     height: auto;
     margin: 4.5% 0px;
-    transition: 0.4s ease-in-out;
+    transition: 0.5s ease-in-out;
+    filter: grayscale(100%);
 
     &:hover {
-      transform: scale(1.1);
+      filter: brightness(95%);
+      transform: scale(1.02);
       cursor: pointer;
     }
   }
