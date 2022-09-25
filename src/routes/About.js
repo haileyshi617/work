@@ -12,7 +12,7 @@ function About() {
   const skills = getSkills();
 
   return (
-    <div className='about' id='bio'>
+    <div className='about'>
       <section className='about_section'>
         <h3>Design and Build</h3>
         <p>
