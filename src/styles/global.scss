@@ -1,8 +1,42 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;0,900;1,200&display=swap');
 
 @import 'variables';
+@import 'normalize';
+@import 'typography';
+
 @import 'nav';
+@import 'footer';
+
+@import 'home';
+@import 'work';
 @import 'about';
+@import 'contact';
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+textarea,
+select,
+input,
+button {
+  background-color: $c-white;
+  line-height: 100%;
+  color: $c-black;
+}
+
+html {
+  overflow-x: hidden;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
 
 body {
   /* background-color: red; */
@@ -13,6 +47,11 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+
+.layout {
+  padding-top: 12vh;
+}
+
 #loading {
   width: 100vw;
   height: 100vh;
@@ -40,93 +79,6 @@ body {
   100% {
     transform: rotate(360deg);
   }
-}
-
-/* Work */
-/* -------------------------------- */
-#work {
-  width: 92vw;
-  padding: 6vh 4vw;
-  font-weight: bold;
-}
-#work h1 {
-  padding: 5px 0px;
-  border-bottom: 4px solid $c-primary-main;
-  width: 6%;
-}
-#photos {
-  width: 100%;
-  columns: 3;
-  column-gap: 4%;
-  z-index: 1;
-  transition: 0.4s ease-in-out;
-}
-#photos img {
-  width: 100%;
-  height: auto;
-  margin: 4.5% 0px;
-  transition: 0.4s ease-in-out;
-}
-#photos img:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-}
-
-/* Bio */
-/* -------------------------------- */
-#bio {
-  width: 92vw;
-  padding: 6vh 4vw;
-  font-weight: bold;
-}
-#bio h1 {
-  padding: 5px 0px;
-  border-bottom: 4px solid $c-primary-main;
-  width: 8%;
-}
-
-/* Contact */
-/* -------------------------------- */
-#contact {
-  width: 92vw;
-  padding: 6vh 4vw;
-}
-#contact h1 {
-  padding: 5px 0px;
-  border-bottom: 4px solid $c-primary-main;
-  width: 10%;
-}
-
-/* Footer */
-/* -------------------------------- */
-#footer {
-  width: 100%;
-  padding: 10vh 0px;
-  text-align: center;
-  font-weight: bold;
-}
-#footer a {
-  color: $c-primary-main;
-  text-decoration: none;
-}
-::placeholder {
-  color: #000;
-}
-button:focus {
-  outline: none;
-}
-::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
-}
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-::-webkit-scrollbar-thumb {
-  background: rgb(0, 0, 0);
-}
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 0, 0, 0.8);
 }
 
 /* Responsive */

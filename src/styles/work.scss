@@ -1,0 +1,26 @@
+/* Work */
+/* -------------------------------- */
+#work {
+  width: 92vw;
+  padding: 6vh 4vw;
+}
+
+#photos {
+  width: 100%;
+  columns: 3;
+  column-gap: 4%;
+  z-index: 1;
+  transition: 0.4s ease-in-out;
+
+  img {
+    width: 100%;
+    height: auto;
+    margin: 4.5% 0px;
+    transition: 0.4s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+  }
+}

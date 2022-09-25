@@ -13,7 +13,6 @@ function About() {
 
   return (
     <div className='about' id='bio'>
-      <h1>About</h1>
       <section className='about_section'>
         <h3>Design and Build</h3>
         <p>
@@ -29,12 +28,14 @@ function About() {
         {workExperience.map((work) => (
           <div key={work.company} className='col-container'>
             <div className='date-container'>
-              {work.startDate} - {work.endDate}
+              <p>
+                {work.startDate} - {work.endDate ? work.endDate : 'Present'}
+              </p>
             </div>
             <div className='detail-container'>
               <div className='overview-container'>
                 <p>
-                  <b>{work.title}</b>, {work.company},<i>{work.location}</i>
+                  <b>{work.title}</b>, {work.company},<i> {work.location}</i>
                 </p>
               </div>
               <hr />
@@ -54,7 +55,9 @@ function About() {
         {educations.map((edu) => (
           <div className='col-container' key={edu.school}>
             <div className='date-container'>
-              {edu.startDate} - {edu.endDate}
+              <p>
+                {edu.startDate} - {edu.endDate}
+              </p>
             </div>
             <div className='detail-container'>
               <p>

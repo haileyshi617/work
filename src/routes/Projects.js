@@ -11,7 +11,6 @@ function Projects() {
 
   return (
     <div id='work'>
-      <h1>work</h1>
       <div id='photos'>
         <img
           src='https://images.unsplash.com/photo-1547922657-b370d1687eb1?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80'

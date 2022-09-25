@@ -10,7 +10,6 @@ function ProjectDetail() {
 
   return (
     <div className='project_detail'>
-      {' '}
       <section className='detail_section'>
         <img
           src='https://uploads-ssl.webflow.com/607d0c47994877dd32deea97/610a8f1cbd4ad0ef8e4eaf14_01_Hero.png'
