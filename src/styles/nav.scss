@@ -50,3 +50,27 @@
     }
   }
 }
+@media (max-width: 1000px) {
+  #header {
+    width: 96vw;
+    background: $c-white;
+    padding: 4vh 2vw;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #logo {
+    text-align: center;
+    width: 100%;
+  }
+  #navigation {
+    width: 100%;
+    color: $c-black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+  }
+}

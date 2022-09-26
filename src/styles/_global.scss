@@ -6,6 +6,7 @@
 
 @import 'nav';
 @import 'footer';
+@import 'loading';
 
 @import 'home';
 @import 'projects';
@@ -48,6 +49,22 @@ body {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 0, 0);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* General */
+/* -------------------------------- */
 .layout {
   padding-top: 8vh;
 }
@@ -56,36 +73,8 @@ body {
   display: none;
 }
 
-#loading {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  background: $c-white;
-  z-index: 999;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-#spinner {
-  animation: rotate 0.56s infinite linear;
-  width: 50px;
-  height: 50px;
-  border: 12px solid $c-primary-main;
-  border-bottom: 12px solid $c-white;
-  border-radius: 50%;
-  margin: 0;
-}
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 /* Responsive */
+/* -------------------------------- */
 @media (max-width: 1000px) {
   #photos {
     columns: 1;
@@ -94,19 +83,14 @@ body {
   #photos img {
     margin: 2% 0px;
   }
+
   #photos img:hover {
     transform: scale(1);
     cursor: pointer;
   }
-  #rightImage {
-    display: none;
-  }
+
   #top_part {
     border: 0px;
-  }
-  #top_part tr td {
-    width: 100%;
-    text-align: center;
   }
 
   /* About */
@@ -117,62 +101,5 @@ body {
     padding-top: 20vh !important;
     text-align: center;
     padding: 0px 4%;
-  }
-  #about table {
-    width: 100%;
-    margin-top: 6vh;
-  }
-  #about table tr td {
-    text-align: center;
-  }
-  .btn_one {
-    padding: 6px 30px;
-    width: 60%;
-    margin: 4vh auto;
-    box-shadow: 0px 10px 20px rgba(255, 44, 90, 0.8);
-    background: $c-primary-main;
-    color: $c-white;
-  }
-  .btn_one:hover {
-    box-shadow: 0px 10px 40px rgba(255, 44, 90, 0.8);
-    cursor: pointer;
-  }
-
-  /* Main */
-  /* -------------------------------- */
-
-  #work h1 {
-    width: 19%;
-  }
-  #bio h1 {
-    width: 25%;
-  }
-  #contact h1 {
-    width: 33%;
-  }
-
-  /* Header */
-  /* -------------------------------- */
-  #header {
-    width: 96vw;
-    background: $c-white;
-    padding: 4vh 2vw;
-    position: absolute;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-  #logo {
-    text-align: center;
-    width: 100%;
-  }
-  #navigation {
-    width: 100%;
-    color: $c-black;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding-top: 30px;
   }
 }

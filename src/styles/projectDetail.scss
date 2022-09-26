@@ -1,20 +1,27 @@
 .project_detail {
   width: 92vw;
   padding: 6vh 4vw;
+  padding-bottom: 0vh;
 
   a {
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    &:hover {
+      text-decoration: underline;
+    }
+
     &.disabled {
       color: $c-grey-dark;
       cursor: default;
       pointer-events: none;
     }
   }
-  margin-bottom: 80px;
 
   h1 {
     width: 100%;
     font-size: 36px;
-    line-height: auto;
+    line-height: 48px;
     border: none;
     margin-bottom: 12px;
   }
@@ -45,11 +52,19 @@
   }
 
   .detail_section {
-    margin-bottom: 40px;
-    min-height: 40vh;
+    margin-bottom: 10vh;
+    min-height: 20vh;
 
-    &.last {
-      margin-bottom: 90px;
+    &.link {
+      display: flex;
+      min-height: 2vh;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    &.short {
+      min-height: 10vh;
+      margin-bottom: 0vh;
     }
 
     .flex_container {
@@ -66,7 +81,8 @@
 
         .flex_item {
           margin-left: 0;
-          margin-bottom: 24px;
+          margin-bottom: 36px;
+          width: 100%;
         }
       }
     }

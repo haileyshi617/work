@@ -18,7 +18,7 @@ const projects = [
       improve:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
     },
-    link: '',
+    link: 'http://livingheritage.mit.edu/',
     statement:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
     resources: {

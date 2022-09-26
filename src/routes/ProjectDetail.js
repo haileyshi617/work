@@ -39,15 +39,18 @@ function ProjectDetail() {
           </div>
         </div>
       </section>
+
       <hr />
+
       <section className='detail_section statement'>
         <div className='text'>{project.statement}</div>
       </section>
+
       <hr />
 
       <section className='detail_section'>
-        {project.resources.details.map((section) => (
-          <section className='resource_section'>
+        {project.resources.details.map((section, index) => (
+          <section className='resource_section' key={index}>
             <div className='text_container'>
               {section.title ? <h2>{section.title}</h2> : null}
               <p>{section.text}</p>
@@ -59,12 +62,17 @@ function ProjectDetail() {
       </section>
 
       {project.link && (
-        <section className='detail_section'>
-          <a href={project.link}>See more about {project.name}</a>
+        <section className='detail_section link'>
+          <p>
+            More about{' '}
+            <a href={project.link} target='_blank' rel='noreferrer'>
+              {project.name} 🡥
+            </a>
+          </p>
         </section>
       )}
-
-      <section className='detail_section last'>
+      <hr />
+      <section className='detail_section'>
         <h2>Takeaways</h2>
         <div className='flex_container'>
           <div className='flex_item'>
@@ -80,7 +88,7 @@ function ProjectDetail() {
 
       <hr />
 
-      <section className='detail_section'>
+      <section className='detail_section short'>
         <div className='links'>
           <Link to={`../projects`}>{'<'} Project List</Link>
           <Link
