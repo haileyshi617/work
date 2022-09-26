@@ -6,10 +6,11 @@ const projects = [
     year: 2022,
     description: 'Web Map & Data Collection App',
     skills: ['UXDesign', 'React', 'Mapping'],
-    challenge: {
-      what: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-      why: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-      how: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
+    summary: {
+      problem:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
+      highlights:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
     },
     takeaways: {
       learn:
@@ -18,9 +19,34 @@ const projects = [
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
     },
     link: '',
-    resources: [
-      'https://images.unsplash.com/photo-1534670007418-fbb7f6cf32c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80',
-    ],
+    statement:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+    resources: {
+      hero: 'https://images.unsplash.com/photo-1663510179210-45cca07cf37f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+      details: [
+        {
+          title: 'User Research',
+          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
+          source:
+            'https://uploads-ssl.webflow.com/607d0c47994877dd32deea97/610a8f1cbd4ad0ef8e4eaf14_01_Hero.png',
+          alt: 'hero image',
+        },
+        {
+          title: 'User Research',
+          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
+          source:
+            'https://uploads-ssl.webflow.com/607d0c47994877dd32deea97/610a8f1cbd4ad0ef8e4eaf14_01_Hero.png',
+          alt: 'hero image',
+        },
+        {
+          title: 'User Research',
+          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
+          source:
+            'https://uploads-ssl.webflow.com/607d0c47994877dd32deea97/610a8f1cbd4ad0ef8e4eaf14_01_Hero.png',
+          alt: 'hero image',
+        },
+      ],
+    },
   },
   {
     name: 'Food Security and Migration',
@@ -29,10 +55,11 @@ const projects = [
     year: 2021,
     description: 'Data Visualization',
     skills: ['UXDesign', 'React', 'D3'],
-    challenge: {
-      what: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-      why: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-      how: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
+    summary: {
+      problem:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
+      highlights:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
     },
     takeaways: {
       learn:
@@ -41,9 +68,10 @@ const projects = [
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
     },
     link: '',
-    resources: [
-      'https://images.unsplash.com/photo-1663510179210-45cca07cf37f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
-    ],
+    resources: {
+      hero: 'https://images.unsplash.com/photo-1663510179210-45cca07cf37f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+      details: [{ title: '', text: '', source: '', alt: '' }],
+    },
   },
   {
     name: 'BluePin',
@@ -52,10 +80,11 @@ const projects = [
     year: 2021,
     description: 'Sustainable Bike-Based Social Media',
     skills: ['UXDesign', 'Vue'],
-    challenge: {
-      what: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-      why: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-      how: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
+    summary: {
+      problem:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
+      highlights:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
     },
     takeaways: {
       learn:
@@ -64,9 +93,10 @@ const projects = [
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
     },
     link: '',
-    resources: [
-      'https://images.unsplash.com/photo-1610886420404-7f72bc3d57d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80',
-    ],
+    resources: {
+      hero: 'https://images.unsplash.com/photo-1663510179210-45cca07cf37f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+      details: [{ title: '', text: '', source: '', alt: '' }],
+    },
   },
   {
     name: 'GroundUP',
@@ -75,10 +105,11 @@ const projects = [
     year: 2021,
     description: 'Service Design for Circular Economy',
     skills: ['ServiceDesign', 'WireFraming', 'StoryBoarding'],
-    challenge: {
-      what: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-      why: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-      how: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
+    summary: {
+      problem:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
+      highlights:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
     },
     takeaways: {
       learn:
@@ -87,9 +118,10 @@ const projects = [
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
     },
     link: '',
-    resources: [
-      'https://images.unsplash.com/photo-1661534855546-705fbea6d3e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80',
-    ],
+    resources: {
+      hero: 'https://images.unsplash.com/photo-1663510179210-45cca07cf37f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+      details: [{ title: '', text: '', source: '', alt: '' }],
+    },
   },
   {
     name: 'Experiments',
@@ -98,10 +130,11 @@ const projects = [
     year: 'On-going',
     description: 'Not Always Serious :)',
     skills: ['ServiceDesign', 'WireFraming', 'StoryBoarding'],
-    challenge: {
-      what: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-      why: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-      how: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
+    summary: {
+      problem:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
+      highlights:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
     },
     takeaways: {
       learn:
@@ -110,9 +143,10 @@ const projects = [
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
     },
     link: '',
-    resources: [
-      'https://images.unsplash.com/photo-1657862035112-853a1ce01d33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80',
-    ],
+    resources: {
+      hero: 'https://images.unsplash.com/photo-1663510179210-45cca07cf37f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+      details: [{ title: '', text: '', source: '', alt: '' }],
+    },
   },
   {
     name: 'Experiments2',
@@ -121,10 +155,11 @@ const projects = [
     year: 'On-going',
     description: 'Not Always Serious :)',
     skills: ['ServiceDesign', 'WireFraming', 'StoryBoarding'],
-    challenge: {
-      what: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-      why: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-      how: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
+    summary: {
+      problem:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
+      highlights:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
     },
     takeaways: {
       learn:
@@ -133,9 +168,10 @@ const projects = [
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
     },
     link: '',
-    resources: [
-      'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=755&q=80',
-    ],
+    resources: {
+      hero: 'https://images.unsplash.com/photo-1663510179210-45cca07cf37f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+      details: [{ title: '', text: '', source: '', alt: '' }],
+    },
   },
   {
     name: 'Experiments3',
@@ -144,10 +180,11 @@ const projects = [
     year: 'On-going',
     description: 'Not Always Serious :)',
     skills: ['ServiceDesign', 'WireFraming', 'StoryBoarding'],
-    challenge: {
-      what: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-      why: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-      how: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
+    summary: {
+      problem:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
+      highlights:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
     },
     takeaways: {
       learn:
@@ -156,9 +193,10 @@ const projects = [
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
     },
     link: '',
-    resources: [
-      'https://images.unsplash.com/photo-1561070791-36c11767b26a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80',
-    ],
+    resources: {
+      hero: 'https://images.unsplash.com/photo-1663510179210-45cca07cf37f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+      details: [{ title: '', text: '', source: '', alt: '' }],
+    },
   },
 ];
 

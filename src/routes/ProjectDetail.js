@@ -12,73 +12,74 @@ function ProjectDetail() {
     <div className='project_detail'>
       <section className='detail_section'>
         <img
-          src='https://cdn.dribbble.com/users/5072347/screenshots/15579709/media/867de1e6c48486490442aa126726b218.jpg'
+          src='https://uploads-ssl.webflow.com/607d0c47994877dd32deea97/610a8f1cbd4ad0ef8e4eaf14_01_Hero.png'
           alt='heroImage'
         ></img>
       </section>
+
       <section className='detail_section'>
-        <h2 className='title'>{project.name}</h2>
+        <h1>{project.name}</h1>
         <p>{project.description}</p>
         <ul>
           {project.skills.map((skill) => (
-            <li key={skill}>{`#${skill}`} </li>
+            <li key={skill}>{`#${skill}`} &nbsp; </li>
           ))}
         </ul>
       </section>
+
       <section className='detail_section'>
-        <h2>The Challenge</h2>
         <div className='flex_container'>
           <div className='flex_item'>
-            <h3>What</h3>
-            <p>{project.challenge.what}</p>
+            <h3>Problem</h3>
+            <p>{project.summary.problem}</p>
           </div>
           <div className='flex_item'>
-            <h3>Why</h3>
-            <p>{project.challenge.why}</p>
-          </div>
-          <div className='flex_item'>
-            <h3>How</h3>
-            <p>{project.challenge.how}</p>
+            <h3>Highlights</h3>
+            <p>{project.summary.highlights}</p>
           </div>
         </div>
       </section>
-      <section className='detail_section'>
-        <img
-          src='https://uploads-ssl.webflow.com/607d0c47994877dd32deea97/610a8f1cbd4ad0ef8e4eaf14_01_Hero.png'
-          alt='heroImage'
-        ></img>
-        <img
-          src='https://uploads-ssl.webflow.com/607d0c47994877dd32deea97/610a8f1cbd4ad0ef8e4eaf14_01_Hero.png'
-          alt='heroImage'
-        ></img>
-        <img
-          src='https://uploads-ssl.webflow.com/607d0c47994877dd32deea97/610a8f1cbd4ad0ef8e4eaf14_01_Hero.png'
-          alt='heroImage'
-        ></img>
+      <hr />
+      <section className='detail_section statement'>
+        <div className='text'>{project.statement}</div>
       </section>
+      <hr />
+
+      <section className='detail_section'>
+        {project.resources.details.map((section) => (
+          <section className='resource_section'>
+            <div className='text_container'>
+              {section.title ? <h2>{section.title}</h2> : null}
+              <p>{section.text}</p>
+            </div>
+
+            <img src={section.source} alt={section.alt} />
+          </section>
+        ))}
+      </section>
+
       {project.link && (
         <section className='detail_section'>
           <a href={project.link}>See more about {project.name}</a>
         </section>
       )}
-      <section className='detail_section'>
+
+      <section className='detail_section last'>
         <h2>Takeaways</h2>
         <div className='flex_container'>
           <div className='flex_item'>
-            <h3>What</h3>
-            <p>{project.challenge.what}</p>
+            <h3>What I learned</h3>
+            <p>{project.takeaways.learn}</p>
           </div>
           <div className='flex_item'>
-            <h3>Why</h3>
-            <p>{project.challenge.why}</p>
-          </div>
-          <div className='flex_item'>
-            <h3>How</h3>
-            <p>{project.challenge.how}</p>
+            <h3>What's next</h3>
+            <p>{project.takeaways.improve}</p>
           </div>
         </div>
       </section>
+
       <hr />
+
       <section className='detail_section'>
         <div className='links'>
           <Link to={`../projects`}>{'<'} Project List</Link>

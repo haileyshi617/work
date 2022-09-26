@@ -5,7 +5,7 @@ function Home() {
     <div id='top_part'>
       <div className='home'>
         <p>{`I’m Huiwen 👋🏼 — a UX designer & front-end developer based in Boston.`}</p>
-        <p>{`For the past 7 years I’ve been working on creating products that promotes connection. I love collaboration, playful UI ✨ and clean designs.`}</p>
+        <p>{`I love collaboration, playful UI ✨, clean designs and implementations.`}</p>
         <br />
         <div className='socials-container'>
           <div>

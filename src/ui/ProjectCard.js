@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
-function ProjectCard({ name, id, resources }) {
+function ProjectCard({ name, id, hero }) {
   const [isHovering, setIsHovering] = useState(false);
 
   const handleMouseOver = () => {
@@ -20,7 +20,7 @@ function ProjectCard({ name, id, resources }) {
       onMouseOver={handleMouseOver}
       onMouseOut={handleMouseOut}
     >
-      <img src={resources[0]} alt='project' />
+      <img src={hero} alt='project' />
       <div className={isHovering ? 'project_title' : 'hidden'}>{name}</div>
     </Link>
   );

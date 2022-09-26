@@ -2,7 +2,7 @@
 /* -------------------------------- */
 #header {
   width: 92vw;
-  padding: 6vh 4vw;
+  padding: 4vh 4vw;
   position: fixed;
   font-weight: 400;
   background: $c-white;
@@ -15,7 +15,7 @@
   align-items: center;
 
   &.active {
-    padding: 5vh 4vw;
+    padding: 3.5vh 4vw;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
 }
