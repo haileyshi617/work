@@ -9,8 +9,14 @@ function Projects() {
   return (
     <div id='work'>
       <div id='photos'>
-        {projects.map(({ name, id, resources }) => (
-          <ProjectCard name={name} id={id} hero={resources.hero} key={id} />
+        {projects.map((p) => (
+          <ProjectCard
+            name={p.name}
+            id={p.id}
+            hero={p.resources.hero}
+            key={p.id}
+            description={p.summary.highlights}
+          />
         ))}
       </div>
     </div>

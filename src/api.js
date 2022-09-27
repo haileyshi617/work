@@ -119,7 +119,7 @@ const projects = [
     },
     link: '',
     resources: {
-      hero: 'https://images.unsplash.com/photo-1663510179210-45cca07cf37f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+      hero: 'https://cdn.dribbble.com/users/5072347/screenshots/19502100/media/f54bea2dc5cdebd8e81be48db6532d3e.png',
       details: [{ title: '', text: '', source: '', alt: '' }],
     },
   },

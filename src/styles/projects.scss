@@ -5,45 +5,97 @@
   padding: 6vh 4vw;
 }
 
-#photos {
-  width: 100%;
-  columns: 3;
-  column-gap: 4%;
-  z-index: 1;
-  transition: 0.3s ease-in-out;
-}
+.project_card {
+  margin: auto;
+  max-width: 960px;
+  margin-bottom: 10vh;
+  height: 80vh;
+  transition: all 0.3s ease-in-out;
 
-.project_item {
-  position: relative;
-
-  .project_title {
-    z-index: 2;
-    color: $c-white;
-    pointer-events: none;
-    font-size: 24px;
-    line-height: 36px;
-    position: absolute;
-    width: 50%;
-    font-weight: 600;
-    bottom: 24px;
-    left: 12px;
-
-    @media (max-width: 600px) {
-      font-size: 24px;
-    }
+  @media (max-width: 768px) {
+    height: auto;
+    margin-bottom: 10vh;
   }
 
-  img {
-    width: 100%;
-    height: auto;
-    margin: 4.5% 0px;
-    transition: 0.5s ease-in-out;
-    filter: grayscale(100%);
+  a {
+    text-decoration: none;
+  }
 
-    &:hover {
-      filter: brightness(95%);
-      transform: scale(1.02);
-      cursor: pointer;
+  .card_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      display: block;
+    }
+
+    &:hover .text_container .project_title {
+      text-decoration: underline;
+    }
+
+    &:hover .text_container .view {
+      text-decoration: underline;
+      text-decoration-color: $c-primary-main;
+      text-decoration-thickness: 5px;
+    }
+
+    &:hover img {
+      filter: none;
+    }
+
+    .text_container {
+      width: 30%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 5%;
+
+      @media (max-width: 768px) {
+        width: 100%;
+        height: fit-content;
+        margin: 3vh 0;
+      }
+
+      .project_title {
+        width: 70%;
+        font-size: 24px;
+        line-height: 36px;
+        border-bottom: none;
+
+        @media (max-width: 768px) {
+          width: 100%;
+          line-height: 24px;
+        }
+      }
+
+      p {
+        font-weight: 400;
+
+        &.view {
+          font-weight: 600;
+        }
+      }
+    }
+
+    img {
+      border-radius: 1%;
+      height: 100%;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      transition: 0.5s ease-in-out;
+      filter: grayscale(100%);
+
+      @media (max-width: 768px) {
+        filter: none;
+        aspect-ratio: 3/4;
+        width: 100%;
+        height: auto;
+      }
     }
   }
 }
