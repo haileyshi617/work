@@ -148,56 +148,6 @@ const projects = [
       details: [{ title: '', text: '', source: '', alt: '' }],
     },
   },
-  {
-    name: 'Experiments2',
-    type: 'design',
-    id: 'experiments2',
-    year: 'On-going',
-    description: 'Not Always Serious :)',
-    skills: ['ServiceDesign', 'WireFraming', 'StoryBoarding'],
-    summary: {
-      problem:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-      highlights:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-    },
-    takeaways: {
-      learn:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-      improve:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-    },
-    link: '',
-    resources: {
-      hero: 'https://drive.google.com/uc?export=view&id=1wAqNGsNfyQH1p5PAONj_KDEFNsQA8crH',
-      details: [{ title: '', text: '', source: '', alt: '' }],
-    },
-  },
-  {
-    name: 'Experiments3',
-    type: 'design',
-    id: 'experiments3',
-    year: 'On-going',
-    description: 'Not Always Serious :)',
-    skills: ['ServiceDesign', 'WireFraming', 'StoryBoarding'],
-    summary: {
-      problem:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-      highlights:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-    },
-    takeaways: {
-      learn:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-      improve:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-    },
-    link: '',
-    resources: {
-      hero: 'https://drive.google.com/uc?export=view&id=1wAqNGsNfyQH1p5PAONj_KDEFNsQA8crH',
-      details: [{ title: '', text: '', source: '', alt: '' }],
-    },
-  },
 ];
 
 export function getProjects() {
