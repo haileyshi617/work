@@ -22,7 +22,7 @@ const projects = [
     statement:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
     resources: {
-      hero: 'https://images.unsplash.com/photo-1663510179210-45cca07cf37f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+      hero: 'https://drive.google.com/uc?export=view&id=1wAqNGsNfyQH1p5PAONj_KDEFNsQA8crH',
       details: [
         {
           title: 'User Research',
@@ -67,9 +67,9 @@ const projects = [
       improve:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
     },
-    link: '',
+    link: 'https://haileyshi617.github.io/bigdata-11.454-react/',
     resources: {
-      hero: 'https://images.unsplash.com/photo-1663510179210-45cca07cf37f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+      hero: 'https://drive.google.com/uc?export=view&id=1coUKFN3PkrLHUPjlw4vYo_3HNg2iBfdF',
       details: [{ title: '', text: '', source: '', alt: '' }],
     },
   },
@@ -94,7 +94,7 @@ const projects = [
     },
     link: '',
     resources: {
-      hero: 'https://images.unsplash.com/photo-1663510179210-45cca07cf37f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+      hero: 'https://drive.google.com/uc?export=view&id=1qa3PTo14GX06s72UQYSRZw-o5fQ0YxRB',
       details: [{ title: '', text: '', source: '', alt: '' }],
     },
   },
@@ -119,7 +119,7 @@ const projects = [
     },
     link: '',
     resources: {
-      hero: 'https://cdn.dribbble.com/users/5072347/screenshots/19502100/media/f54bea2dc5cdebd8e81be48db6532d3e.png',
+      hero: 'https://drive.google.com/uc?export=view&id=1ieyW7GrF2OIz0TQdKa7x4j1kR6sOok4g',
       details: [{ title: '', text: '', source: '', alt: '' }],
     },
   },
@@ -144,7 +144,7 @@ const projects = [
     },
     link: '',
     resources: {
-      hero: 'https://images.unsplash.com/photo-1663510179210-45cca07cf37f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+      hero: 'https://drive.google.com/uc?export=view&id=1wAqNGsNfyQH1p5PAONj_KDEFNsQA8crH',
       details: [{ title: '', text: '', source: '', alt: '' }],
     },
   },
@@ -169,7 +169,7 @@ const projects = [
     },
     link: '',
     resources: {
-      hero: 'https://images.unsplash.com/photo-1663510179210-45cca07cf37f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+      hero: 'https://drive.google.com/uc?export=view&id=1wAqNGsNfyQH1p5PAONj_KDEFNsQA8crH',
       details: [{ title: '', text: '', source: '', alt: '' }],
     },
   },
@@ -194,7 +194,7 @@ const projects = [
     },
     link: '',
     resources: {
-      hero: 'https://images.unsplash.com/photo-1663510179210-45cca07cf37f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+      hero: 'https://drive.google.com/uc?export=view&id=1wAqNGsNfyQH1p5PAONj_KDEFNsQA8crH',
       details: [{ title: '', text: '', source: '', alt: '' }],
     },
   },

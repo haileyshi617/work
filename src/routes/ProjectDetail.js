@@ -1,4 +1,4 @@
-import React from 'react';
+import { React, useMemo } from 'react';
 import { Link, useParams } from 'react-router-dom';
 
 import { getProjectById, getNextProjectId } from '../api';
@@ -7,7 +7,9 @@ function ProjectDetail() {
   const { id } = useParams();
   const project = getProjectById(id);
   const nextId = getNextProjectId(id);
-
+  const projectRrc = useMemo(() => {
+    return project.resources.details;
+  }, [project]);
   return (
     <div className='project_detail'>
       <section className='detail_section'>
@@ -49,7 +51,7 @@ function ProjectDetail() {
       <hr />
 
       <section className='detail_section'>
-        {project.resources.details.map((section, index) => (
+        {projectRrc.map((section, index) => (
           <section className='resource_section' key={index}>
             <div className='text_container'>
               {section.title ? <h2>{section.title}</h2> : null}
