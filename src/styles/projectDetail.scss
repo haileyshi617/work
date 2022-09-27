@@ -42,6 +42,11 @@
     display: block;
   }
 
+  figcaption {
+    font-size: 12px;
+    margin-top: 6px;
+  }
+
   ul {
     margin: 90px 0;
     list-style: none;
@@ -94,6 +99,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      margin: 10vh 0;
 
       .text_container {
         max-width: 600px;

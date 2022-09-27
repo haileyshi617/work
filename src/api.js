@@ -8,42 +8,65 @@ const projects = [
     skills: ['UXDesign', 'React', 'Mapping'],
     summary: {
       problem:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
+        'Beirut’s living heritage of craftsmanship is often unrecognized. After data collection in the field with local stakeholders, the challenge is to include personal photos from craftspeople, libraries, and private collectors in a responsive mobile-first web app.',
       highlights:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
+        'I worked as the UX design lead and front-end developer to design and implement the Living Heritage Altas app. It supports dual-language and multiple ways of data interaction, including map view, image feed view, and data collection.',
     },
     takeaways: {
       learn:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
+        'Incorporating digital mapping with image feed is a very challenging yet rewarding process. Wearing multiple hats makes me more aware of the importance of reusable components - they improve UX for users and developers!',
       improve:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
+        'As time is limited for the project, I did not have the time to implement a lot of the UX and UI designs. The site is shipped with some areas I would like to improve design-wise. Also, we could do more user testing and gain feedback to improve the site UX for future work.',
     },
     link: 'http://livingheritage.mit.edu/',
     statement:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+      'How might we create a mobile-first web app that shares geolocation-based images of Beirut’s craftsmanship while encouraging public data collection?',
     resources: {
       hero: 'https://drive.google.com/uc?export=view&id=1wAqNGsNfyQH1p5PAONj_KDEFNsQA8crH',
+      heroSmall:
+        'https://drive.google.com/uc?export=view&id=1PavPEkVRcPssSPqzutXWEI8mv37nDl4T',
       details: [
         {
-          title: 'User Research',
-          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
+          title: 'The whole process',
+          text: 'This is a rapid design and implementation project. Everyone on the team wore multiple hats. I was designing while keeping in mind that I would also be responsible for coding it out. So responsiveness and a clean design were one of the main focuses.',
           source:
-            'https://uploads-ssl.webflow.com/607d0c47994877dd32deea97/610a8f1cbd4ad0ef8e4eaf14_01_Hero.png',
-          alt: 'hero image',
+            'https://drive.google.com/uc?export=view&id=1wAqNGsNfyQH1p5PAONj_KDEFNsQA8crH',
+          alt: 'Design Process Map',
         },
         {
-          title: 'User Research',
-          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
+          title: 'User research',
+          text: 'We set out to create a platform that would be sharing the large dataset of Beirut craftsmanship. Our primary focus is how we present complex, layered urban research data in a clear and engaging way. After online interviews with urban researchers as well as general users, we narrow down the key features as follows. ',
           source:
-            'https://uploads-ssl.webflow.com/607d0c47994877dd32deea97/610a8f1cbd4ad0ef8e4eaf14_01_Hero.png',
-          alt: 'hero image',
+            'https://drive.google.com/uc?export=view&id=1wAqNGsNfyQH1p5PAONj_KDEFNsQA8crH',
+          alt: 'Key Features',
         },
         {
-          title: 'User Research',
-          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
+          title: 'User persona',
+          text: 'Our primary users are visitors to Beirut, local crafts shop owners, and urban researchers (who are more excited about maps and data).',
           source:
-            'https://uploads-ssl.webflow.com/607d0c47994877dd32deea97/610a8f1cbd4ad0ef8e4eaf14_01_Hero.png',
-          alt: 'hero image',
+            'https://drive.google.com/uc?export=view&id=1wAqNGsNfyQH1p5PAONj_KDEFNsQA8crH',
+          alt: 'User Persona',
+        },
+        {
+          title: 'User journey map',
+          text: 'We iterated multiple versions of the navigation system. In the process, we were minimizing, a lot! The end result is a user journey that is simple and easy to use, even for people visiting the site in the first place.',
+          source:
+            'https://drive.google.com/uc?export=view&id=1wAqNGsNfyQH1p5PAONj_KDEFNsQA8crH',
+          alt: 'User Journey Map',
+        },
+        {
+          title: 'Design system',
+          text: 'The app supports dual language, so we carefully selected typography. Also, we chose a color palette that speaks to the locals.',
+          source:
+            'https://drive.google.com/uc?export=view&id=1wAqNGsNfyQH1p5PAONj_KDEFNsQA8crH',
+          alt: 'Design System',
+        },
+        {
+          title: 'Responsive design',
+          text: 'The app is designed to be mobile-first. For consistency, we develop a responsive design system that is easy to adapt as modules to both the web and mobile versions.',
+          source:
+            'https://drive.google.com/uc?export=view&id=1wAqNGsNfyQH1p5PAONj_KDEFNsQA8crH',
+          alt: 'Responsive Design',
         },
       ],
     },
@@ -70,6 +93,8 @@ const projects = [
     link: 'https://haileyshi617.github.io/bigdata-11.454-react/',
     resources: {
       hero: 'https://drive.google.com/uc?export=view&id=1coUKFN3PkrLHUPjlw4vYo_3HNg2iBfdF',
+      heroSmall:
+        'https://drive.google.com/uc?export=view&id=1NznJltmhfs8wzCOPyS9GlfuoUvbDCehp',
       details: [{ title: '', text: '', source: '', alt: '' }],
     },
   },
@@ -95,6 +120,8 @@ const projects = [
     link: '',
     resources: {
       hero: 'https://drive.google.com/uc?export=view&id=1qa3PTo14GX06s72UQYSRZw-o5fQ0YxRB',
+      heroSmall:
+        'https://drive.google.com/uc?export=view&id=1MsSvlyQCHWXzVrOXaZ0EiaZp8MGNkNfA',
       details: [{ title: '', text: '', source: '', alt: '' }],
     },
   },
@@ -120,31 +147,8 @@ const projects = [
     link: '',
     resources: {
       hero: 'https://drive.google.com/uc?export=view&id=1ieyW7GrF2OIz0TQdKa7x4j1kR6sOok4g',
-      details: [{ title: '', text: '', source: '', alt: '' }],
-    },
-  },
-  {
-    name: 'Experiments',
-    type: 'design',
-    id: 'experiments',
-    year: 'On-going',
-    description: 'Not Always Serious :)',
-    skills: ['ServiceDesign', 'WireFraming', 'StoryBoarding'],
-    summary: {
-      problem:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-      highlights:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-    },
-    takeaways: {
-      learn:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-      improve:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.',
-    },
-    link: '',
-    resources: {
-      hero: 'https://drive.google.com/uc?export=view&id=1wAqNGsNfyQH1p5PAONj_KDEFNsQA8crH',
+      heroSmall:
+        'https://drive.google.com/uc?export=view&id=1JH7knUx0gCLCasK56yEcQ69GWidc9Q_p',
       details: [{ title: '', text: '', source: '', alt: '' }],
     },
   },

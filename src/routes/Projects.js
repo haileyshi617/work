@@ -14,6 +14,7 @@ function Projects() {
             name={p.name}
             id={p.id}
             hero={p.resources.hero}
+            heroSmall={p.resources.heroSmall}
             key={p.id}
             description={p.summary.highlights}
           />

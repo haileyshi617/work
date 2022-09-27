@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import ProgressiveImg from './ProgressiveImg';
 
-function ProjectCard({ name, id, hero, description }) {
+function ProjectCard({ name, id, hero, description, heroSmall }) {
   const [isHovering, setIsHovering] = useState(false);
+
   const handleMouseOver = () => {
     setIsHovering(true);
   };
@@ -19,7 +21,8 @@ function ProjectCard({ name, id, hero, description }) {
         onMouseOut={handleMouseOut}
       >
         <div className='card_container'>
-          <img src={hero} alt='project' />{' '}
+          {/* <img src={hero} alt='project' /> */}
+          <ProgressiveImg imgSrc={hero} previewSrc={heroSmall} />
           <div className='text_container'>
             <h1 className='project_title'>{name}</h1>
             <p>{description}</p>

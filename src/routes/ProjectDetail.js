@@ -59,6 +59,7 @@ function ProjectDetail() {
             </div>
 
             <img src={section.source} alt={section.alt} />
+            <figcaption>{section.alt}</figcaption>
           </section>
         ))}
       </section>
