@@ -5,7 +5,7 @@ const projects = [
     id: 'living-heritage-atlas',
     year: 2022,
     description: 'Web Map & Data Collection App',
-    skills: ['UXDesign', 'React', 'Mapping'],
+    skills: ['UXDesign', 'React', 'Mapping', 'ResponsiveDesign'],
     summary: {
       problem:
         'Beirut’s living heritage of craftsmanship is often unrecognized. After data collection in the field with local stakeholders, the challenge is to include personal photos from craftspeople, libraries, and private collectors in a responsive mobile-first web app.',
@@ -25,47 +25,50 @@ const projects = [
       hero: 'https://drive.google.com/uc?export=view&id=1wAqNGsNfyQH1p5PAONj_KDEFNsQA8crH',
       heroSmall:
         'https://drive.google.com/uc?export=view&id=1PavPEkVRcPssSPqzutXWEI8mv37nDl4T',
+      heroHorizontal:
+        'https://drive.google.com/uc?export=view&id=10-TrIKTH5Wdm84hlUDwVaJBwocvXzZuq',
       details: [
         {
           title: 'The whole process',
           text: 'This is a rapid design and implementation project. Everyone on the team wore multiple hats. I was designing while keeping in mind that I would also be responsible for coding it out. So responsiveness and a clean design were one of the main focuses.',
           source:
-            'https://drive.google.com/uc?export=view&id=1wAqNGsNfyQH1p5PAONj_KDEFNsQA8crH',
+            'https://drive.google.com/uc?export=view&id=1HBiLQ7ZFkmwLLCY7FKCSj_0wOAHXFYGW',
           alt: 'Design Process Map',
         },
         {
           title: 'User research',
           text: 'We set out to create a platform that would be sharing the large dataset of Beirut craftsmanship. Our primary focus is how we present complex, layered urban research data in a clear and engaging way. After online interviews with urban researchers as well as general users, we narrow down the key features as follows. ',
           source:
-            'https://drive.google.com/uc?export=view&id=1wAqNGsNfyQH1p5PAONj_KDEFNsQA8crH',
+            'https://drive.google.com/uc?export=view&id=18yasWVR7UUim1erC_i0SzBytUjNy41je',
           alt: 'Key Features',
         },
         {
           title: 'User persona',
           text: 'Our primary users are visitors to Beirut, local crafts shop owners, and urban researchers (who are more excited about maps and data).',
           source:
-            'https://drive.google.com/uc?export=view&id=1wAqNGsNfyQH1p5PAONj_KDEFNsQA8crH',
+            'https://drive.google.com/uc?export=view&id=1vEfLXtI3O7U2-MSMf44MyGCZabnVu9y2',
+
           alt: 'User Persona',
         },
         {
           title: 'User journey map',
           text: 'We iterated multiple versions of the navigation system. In the process, we were minimizing, a lot! The end result is a user journey that is simple and easy to use, even for people visiting the site in the first place.',
           source:
-            'https://drive.google.com/uc?export=view&id=1wAqNGsNfyQH1p5PAONj_KDEFNsQA8crH',
+            'https://drive.google.com/uc?export=view&id=1Afx_APNB-oJyT-L-govSWdWVpRECvKam',
           alt: 'User Journey Map',
         },
         {
           title: 'Design system',
           text: 'The app supports dual language, so we carefully selected typography. Also, we chose a color palette that speaks to the locals.',
           source:
-            'https://drive.google.com/uc?export=view&id=1wAqNGsNfyQH1p5PAONj_KDEFNsQA8crH',
+            'https://drive.google.com/uc?export=view&id=1VNMBs-UM0aVgjD-7HeUtQww092a_aWUT',
           alt: 'Design System',
         },
         {
           title: 'Responsive design',
           text: 'The app is designed to be mobile-first. For consistency, we develop a responsive design system that is easy to adapt as modules to both the web and mobile versions.',
           source:
-            'https://drive.google.com/uc?export=view&id=1wAqNGsNfyQH1p5PAONj_KDEFNsQA8crH',
+            'https://drive.google.com/uc?export=view&id=131vSEUZanYnF0wzpdLFlsfelHN4au_0V',
           alt: 'Responsive Design',
         },
       ],
