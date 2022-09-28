@@ -42,7 +42,10 @@ function ProjectDetail() {
       <hr />
 
       <section className='detail_section statement'>
-        <div className='text'>{project.statement}</div>
+        <div className='text'>
+          <b>How Might We </b>
+          {project.statement}
+        </div>
       </section>
 
       <hr />
