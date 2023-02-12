@@ -130,7 +130,7 @@ const projects = [
     id: 'blue-pin',
     year: 2021,
     description: ' A Sustainable Bike-Based Social Media Based In Boston',
-    statement: ` use data to demonstrate the relationship between food security and migration in the Northern Triangle of Central America?`,
+    statement: ` design and build a social-media app that gamify sustainable bike-sharing in Boston to encourage sustainable behavior?`,
     skills: ['UXDesign', 'Vue'],
     summary: {
       problem: `We were challenged to design and prototype a web app that would promote sustainable behavior in Boston. After research, we identified Blue Bike, a public bike sharing service in Boston, to be our re-design case.`,
