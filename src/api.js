@@ -51,11 +51,11 @@ const projects = [
           alt: 'User Persona',
         },
         {
-          title: 'User journey map',
-          text: 'We iterated multiple versions of the navigation system. In the process, we were minimizing, a lot! The end result is a user journey that is simple and easy to use, even for people visiting the site in the first place.',
+          title: 'Site map',
+          text: 'We iterated multiple versions of the navigation system. In the process, we were minimizing, a lot! The end result is a site map that is simple and easy to use, even for people visiting the site in the first place.',
           source:
             'https://drive.google.com/uc?export=view&id=1Afx_APNB-oJyT-L-govSWdWVpRECvKam',
-          alt: 'User Journey Map',
+          alt: 'Site Map',
         },
         {
           title: 'Design system',
