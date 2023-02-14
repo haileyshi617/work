@@ -14,7 +14,7 @@
     "web-vitals": "^2.1.4",
     "y": "^0.3.2"
   },
-  "homepage": "https://haileyshi617.github.io/#/work",
+  "homepage": "https://haileyshi617.github.io/work",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
