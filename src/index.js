@@ -17,10 +17,10 @@ root.render(
       <Routes>
         <Route path='/' element={<App />}>
           <Route path='/' element={<Home />} />
-          <Route path='projects' element={<Projects />}></Route>
-          <Route path='projects/:id' element={<ProjectDetail />}></Route>
-          <Route path='about' element={<About />}></Route>
-          <Route path='contact' element={<Contact />}></Route>
+          <Route path='/projects' element={<Projects />}></Route>
+          <Route path='/projects/:id' element={<ProjectDetail />}></Route>
+          <Route path='/about' element={<About />}></Route>
+          <Route path='/contact' element={<Contact />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
