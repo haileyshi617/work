@@ -13,14 +13,15 @@ import ProjectDetail from './routes/ProjectDetail';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HashRouter basename={`/${process.env.PUBLIC_URL}`}>
+    {/* <HashRouter basename={`/${process.env.PUBLIC_URL}`}> */}
+    <HashRouter>
       <Routes>
         <Route path='/' element={<App />}>
           <Route path='/' element={<Home />} />
-          <Route path='projects' element={<Projects />}></Route>
-          <Route path='projects/:id' element={<ProjectDetail />}></Route>
-          <Route path='about' element={<About />}></Route>
-          <Route path='contact' element={<Contact />}></Route>
+          <Route path='/projects' element={<Projects />}></Route>
+          <Route path='/projects/:id' element={<ProjectDetail />}></Route>
+          <Route path='/about' element={<About />}></Route>
+          <Route path='/contact' element={<Contact />}></Route>
         </Route>
       </Routes>
     </HashRouter>
